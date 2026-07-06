@@ -6,6 +6,7 @@
   --amarelo: #F4C430;
   --verde: #2ECC71;
   --verde-claro: #7CF0AA;
+  --verde-fundo: #0B5C2E;
   --branco: #FFFFFF;
   --cinza-texto: #C9D3DC;
 }
@@ -15,7 +16,7 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background: var(--azul);
+  background: var(--verde-fundo);
   color: var(--branco);
   -webkit-font-smoothing: antialiased;
 }
@@ -344,7 +345,7 @@ h1 span {
   color: var(--amarelo);
 }
 
-/* Prova social — entradas no grupo (canto direito, verde, caindo do topo) */
+/* Prova social: entradas no grupo (canto direito, verde, caindo do topo) */
 
 .social-proof-join {
   position: fixed;
